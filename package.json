@@ -1,0 +1,32 @@
+{
+  "name": "gestion-taches--api-nodejs",
+  "version": "1.0.0",
+  "description": "Une API REST en Node.js permettant de gérer des tâches, avec une base de données PostgreSQL. Projet personnel pour apprendre les bases du développement backend.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sultan8080/Gestion-taches--API-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sultan8080/Gestion-taches--API-NodeJS/issues"
+  },
+  "homepage": "https://github.com/sultan8080/Gestion-taches--API-NodeJS#readme",
+  "dependencies": {
+    "pg": "^8.15.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
